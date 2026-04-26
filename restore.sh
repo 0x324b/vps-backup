@@ -69,7 +69,7 @@ main() {
     restore_configs "$BACKUP_SOURCE"
     restore_users "$BACKUP_SOURCE"
     restore_firewall "$BACKUP_SOURCE"
-    cleanup_old_artifacts
+    cleanup_and_repair
     
     # --- Итог ---
     echo ""
