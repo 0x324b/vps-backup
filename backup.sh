@@ -1,7 +1,7 @@
 #!/bin/bash
 # ======================================================================
 # backup.sh — Полный бэкап Debian VPS
-# Часть проекта vps-backup: https://github.com/ваш_юзер/vps-backup
+# Часть проекта vps-backup: https://github.com/0x324b/vps-backup
 # ======================================================================
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
