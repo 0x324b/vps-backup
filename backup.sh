@@ -8,11 +8,11 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$SCRIPT_DIR/lib/common.sh"
 
 # Подключаем модули
-source "$SCRIPT_DIR/lib/backup/system-info.sh"
-source "$SCRIPT_DIR/lib/backup/packages.sh"
-source "$SCRIPT_DIR/lib/backup/configs.sh"
-source "$SCRIPT_DIR/lib/backup/users.sh"
-source "$SCRIPT_DIR/lib/backup/firewall.sh"
+source "$SCRIPT_DIR/backup/system-info.sh"
+source "$SCRIPT_DIR/backup/packages.sh"
+source "$SCRIPT_DIR/backup/configs.sh"
+source "$SCRIPT_DIR/backup/users.sh"
+source "$SCRIPT_DIR/backup/firewall.sh"
 
 # --- Главная процедура ---
 main() {

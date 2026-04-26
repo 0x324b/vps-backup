@@ -10,11 +10,11 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$SCRIPT_DIR/lib/common.sh"
 
-source "$SCRIPT_DIR/lib/restore/packages.sh"
-source "$SCRIPT_DIR/lib/restore/configs.sh"
-source "$SCRIPT_DIR/lib/restore/users.sh"
-source "$SCRIPT_DIR/lib/restore/firewall.sh"
-source "$SCRIPT_DIR/lib/restore/cleanup.sh"
+source "$SCRIPT_DIR/restore/packages.sh"
+source "$SCRIPT_DIR/restore/configs.sh"
+source "$SCRIPT_DIR/restore/users.sh"
+source "$SCRIPT_DIR/restore/firewall.sh"
+source "$SCRIPT_DIR/restore/cleanup.sh"
 
 # --- Главная процедура ---
 main() {
